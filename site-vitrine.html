@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Site Vitrine - MK DESIGN & WEB</title>
+  <link rel="stylesheet" href="webs.css">
+  <button id="theme-toggle">🌙 Mode sombre</button>
+</head>
+<body>
+  <header>
+    <h1>Site Vitrine</h1>
+    <a href="web.html">← Retour à l'accueil</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Qu’est-ce qu’un site vitrine ?</h2>
+      <p>Un site vitrine est une plateforme qui présente votre entreprise, vos produits, vos services et vos coordonnées. Il s’agit d’un outil de communication essentiel pour renforcer votre crédibilité auprès des clients potentiels.</p>
+    </section>
+
+    <section>
+      <h2>À qui s’adresse ce type de site ?</h2>
+      <ul>
+        <li>Artisans</li>
+        <li>PME et entreprises locales</li>
+        <li>Professionnels libéraux (avocats, médecins...)</li>
+        <li>ONG ou associations</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Fonctionnalités possibles</h2>
+      <ul>
+        <li>Page d’accueil attractive</li>
+        <li>Pages Services / À propos / Contact</li>
+        <li>Formulaire de contact</li>
+        <li>Optimisation mobile et SEO</li>
+        <li>Liens vers vos réseaux sociaux</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Pourquoi MK DESIGN & WEB ?</h2>
+      <p>Nous concevons des sites vitrine modernes, rapides, sécurisés, et parfaitement adaptés à votre image de marque.</p>
+    </section>
+    <section>
+      <h2>Demandez un devis personnalisé</h2>
+      <button onclick="toggleForm()" class="btn-devis">Demander un devis</button>
+
+<div id="formulaireDevis" style="display:none;">
+<section id="devis">
+  <h2>Demandez votre devis personnalisé</h2>
+  <p>Veuillez remplir le formulaire ci-dessous pour que nous puissions vous proposer une solution adaptée à vos besoins.</p>
+  <form action="https://formsubmit.co/mkdesignetweb@gmail.com" method="POST" class="form-devis">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://tonsite.com/merci.html">
+
+  <label for="nom">Nom complet *</label>
+  <input type="text" id="nom" name="nom" required>
+
+  <label for="email">Adresse e-mail *</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="telephone">Numéro WhatsApp ou Téléphone *</label>
+  <input type="tel" id="telephone" name="telephone" required>
+
+  <label for="type_site">Type de site souhaité *</label>
+  <select id="type_site" name="type_site" required>
+    <option value="">-- Choisissez un type de site --</option>
+    <option value="vitrine">Site Vitrine</option>
+    <option value="ecommerce">Site E-commerce</option>
+    <option value="portfolio">Portfolio</option>
+    <option value="institutionnel">Institutionnel</option>
+    <option value="blog">Blog</option>
+    <option value="reservation">Site de Réservation</option>
+    <option value="educatif">Site Éducatif</option>
+    <option value="communautaire">Site Communautaire / Forum</option>
+    <option value="landing">Landing Page / Vente</option>
+    <option value="intranet">Intranet / Extranet</option>
+  </select>
+
+  <label for="budget">Budget estimé (en FCFA )</label>
+  <input type="text" id="budget" name="budget">
+
+  <label for="delai">Délai souhaité</label>
+  <input type="text" id="delai" name="delai" placeholder="Ex: 2 semaines, 1 mois...">
+
+  <label for="details">Détails / Fonctionnalités spécifiques</label>
+  <textarea id="details" name="details" rows="5" placeholder="Décrivez votre projet, vos attentes et vos objectifs..."></textarea>
+
+  <button type="submit">Envoyer la demande</button>
+</form>
+</section>
+</div>
+      <p>Vous souhaitez créer un site vitrine pour votre entreprise ? Contactez-nous dès maintenant sur WhatsApp.</p>
+      <a class="whatsapp-button" href="https://wa.me/2290143495939" target="_blank">
+        Contacter-nous sur WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>MK DESIGN & WEB - Tous droits réservés.</p>
+  </footer>
+  <script src="web.js"></script>
+</body>
+</body>
+</html>
